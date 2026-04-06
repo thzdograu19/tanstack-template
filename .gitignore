@@ -1,39 +1,33 @@
 ```
-# Compiled Python files
-*.pyc
-__pycache__/
+# Compressed files
+*.tar.gz
 
-# Logs
-*.log
-logs/
-
-# Dependencies
-venv/
-.venv/
-
-# Build helpers
-build/
-target/
-
-# Environment files
+# Environment
 .env
 .env.local
 *.env.*
+
+# Logs and temp files
+*.log
+*.tmp
 
 # Editors
 .vscode/
 .idea/
 
+# Dependencies
+node_modules/
+.venv/
+venv/
+__pycache__/
+.mypy_cache/
+.pytest_cache/
+dist/
+build/
+target/
+.gradle/
+
 # OS generated files
 .DS_Store
 Thumbs.db
-
-# Coverage reports
-coverage/
-htmlcov/
-*.coverage
-
-# Temporary files
-*.tmp
-*.swp
 ```
