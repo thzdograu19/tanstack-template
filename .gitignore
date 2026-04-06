@@ -1,8 +1,39 @@
-node_modules
-.DS_Store
-dist
-dist-ssr
-*.local
-.vinxi
-.netlify
+```
+# Compiled Python files
+*.pyc
+__pycache__/
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+venv/
+.venv/
+
+# Build helpers
+build/
+target/
+
+# Environment files
 .env
+.env.local
+*.env.*
+
+# Editors
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+coverage/
+htmlcov/
+*.coverage
+
+# Temporary files
+*.tmp
+*.swp
+```
