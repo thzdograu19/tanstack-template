@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Local AI Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="container">
+    <header class="header">
+      <h1>Local AI Hub</h1>
+      <div id="status" class="status">Status: <span id="engine">idle</span></div>
+    </header>
+
+    <main>
+      <section class="models">
+        <div class="models-column">
+          <h2>🧠 Ollama models</h2>
+          <ul id="ollama-list" class="model-list"></ul>
+        </div>
+        <div class="models-column">
+          <h2>🎨 ComfyUI models</h2>
+          <ul id="comfy-list" class="model-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div id="loading" class="loading hidden">Switching engines…</div>
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
